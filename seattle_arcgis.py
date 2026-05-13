@@ -1,8 +1,6 @@
 """
 Seattle open-data ArcGIS loader.
-
-All Seattle GeoData portal datasets are exposed as ArcGIS REST FeatureServers
-under the same org. This module wraps the query pattern with paging, retry,
+This wraps the query pattern with paging, retry,
 and GeoDataFrame output.
 
 Usage:
