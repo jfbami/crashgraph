@@ -1,4 +1,3 @@
-# intersectionrisk
 Seattle's street data is LineStrings, one per block. There is no
 intersections table. 
 
