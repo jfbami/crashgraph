@@ -24,10 +24,7 @@ CRS_WORK = "EPSG:32610"  # UTM 10N (meters) for distance math
 
 @dataclass
 class IntersectionBuilder:
-    """Turns raw street segments into a clean intersection point set.
-
-    Each method is one step of the pipeline. Call .run() to execute end-to-end,
-    or call methods directly when debugging a single stage.
+    """Turns raw street segments into a intersection point set.
     """
 
     raw_dir: Path = RAW
