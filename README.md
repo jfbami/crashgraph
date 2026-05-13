@@ -1,10 +1,7 @@
 # intersectionrisk
 Seattle's street data is LineStrings, one per block. There is no
-intersections table. Crashes happen at corners, not mid-block, so
-I had to build the intersections myself.
+intersections table. 
 
-The method
-----------
 An intersection is where two or more streets meet at an endpoint.
 So:
 
